@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Pass+Through');
+
+.home-page .home-background{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page .home-background .home-header{
+  width: 90vw;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+
+.home-page .home-background .home-header img{
+  width: 106px;
+  height: 106px;
+}
+
+.home-page .home-background .home-header button{
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.home-page .home-background .name {
+  width: 90vw;
+  max-width: 1600px;
+  margin-top: 15vh;
+}
+
+.home-page .home-background .name h2{
+  color: #000;
+  font-size: 5vw;
+  font-weight: normal;
+  font-family: 'Roboto';
+  line-height: 80%;
+}
+
+.home-page .home-background .name h2 span{
+  display: block;
+  font-weight: bold;
+  font-family: 'Paytone One';
+}
+
+.home-page .home-background .name p{
+  color: #000;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Pass Through';
+}
+
+.home-page .home-background .name p span{
+  font-weight: bold;
+  font-family: 'Paytone One';
+  margin-left: 5px;
+}
+
+.home-page .home-background #my-picture{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.home-page .home-background #wave-red{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+@media(max-width: 850px){
+  .home-page .home-background #my-picture{
+    display: none;
+  }
+
+  .home-page .home-background .name{
+    text-align: center;
+  }
+
+  .home-page .home-background .name h2{
+    font-size: 68px;
+  }
+}
