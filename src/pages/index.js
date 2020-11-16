@@ -17,7 +17,7 @@ export default function Home() {
           <div className="home-header">
             <img src={LogoRed} alt="Logo de Alexander Augusto" />
             <button>
-              <i className="fas fa-bars" />
+              <i className="icon fas fa-bars" />
             </button>
           </div>
           <div className="name">
