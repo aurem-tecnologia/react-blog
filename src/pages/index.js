@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import LogoRed from '../assets/logo-red.png'
 import MyPicture from '../assets/my-picture.png'
-import WaveRed from '../assets/wave-red.svg'
+import WaveBg from '../assets/wave-bg.svg'
 
 export default function Home() {
   return (
@@ -24,7 +24,9 @@ export default function Home() {
             <h2>ALEXANDER <span>AUGUSTO</span></h2>
           </div>
           <img id="my-picture" src={MyPicture} alt="Foto de Alexander Augusto" />
-          <img id="wave-red" src={WaveRed} alt="Design em formato de onda" />
+        </section>
+        <section className="home-about">
+    
         </section>
       </main>
     </div>

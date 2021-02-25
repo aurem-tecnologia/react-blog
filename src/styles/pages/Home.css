@@ -86,3 +86,10 @@
     font-size: 68px;
   }
 }
+
+.home-page .home-about{
+  background-image: url('../../assets/wave-bg.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 1076px;
+}
